@@ -37,7 +37,6 @@ def catchall_handler(*args, **kwargs):
         return
 
     song_id = args[1]['Metadata']['mpris:trackid']
-    print(song_id)
 
     if not muted and song_id.startswith(AD_ID):
         mute()

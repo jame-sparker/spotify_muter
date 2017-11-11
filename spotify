@@ -1,2 +1,2 @@
 #!/bin/bash
-p3 muter.py
+python3 muter.py
