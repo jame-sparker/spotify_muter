@@ -12,7 +12,12 @@ Not installed - pygi
 # Installation
 1. Download the repo as a zip
 2. Unzip it
-3. Install using `sudo install.sh`
+3. cd to the unzipped directory
+4. Install with `sudo ./install.sh`
+
+# Uninstalling
+1. Run `sudo ./uninstall.sh`
+2. Remove the unzipped directory
 
 # Usage
 Run `spotify_muter` on command line.
