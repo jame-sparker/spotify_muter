@@ -2,7 +2,7 @@
 Mutes advertisement for spotify on linux.
 Most of the code is written in python3. 
 There is a better version out there in bash which has other dependencies.
-I did not realize this utill I was half way into the project.
+I did not realize this util I was half way into the project.
 
 # Dependencies 
 Preinstalled on ubuntu - Python3, dbus, amixer
