@@ -6,6 +6,7 @@ I did not realize this utill I was half way into the project.
 
 # Dependencies 
 Preinstalled on ubuntu - Python3, dbus, amixer
+
 Not installed - pygi
 
 # Installation
@@ -15,5 +16,7 @@ Not installed - pygi
 
 # Usage
 Run `spotify_muter` on command line.
+
 or
+
 Click on your Spotify icon.
