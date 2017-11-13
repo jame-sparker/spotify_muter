@@ -1,6 +1,7 @@
 import dbus
 import threading
 import subprocess
+import time
 from dbus.mainloop.glib import DBusGMainLoop
 from gi.repository import GObject as gobject
 
@@ -41,6 +42,7 @@ def catchall_handler(*args, **kwargs):
     if not muted and song_id.startswith(AD_ID):
         mute()
     elif muted and not song_id.startswith(AD_ID):
+        time.sleep(1.5) # Adding a delay since the signal is released early
         unmute()
 
 def main():
